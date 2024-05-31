@@ -14,7 +14,13 @@ console.log()
 
 const notas = [6.7 , 7.4 , 9.8, 8.1 , 7.7]
 
-for(i = 0; i < notas.length; i++) {
+
+for(let i = 0; i < notas.length; i++) {    
    console.log(`notas = ${notas[i]}`);
 
 }
+
+// i = 0 pois as posições do array inicia se do 0
+
+//  .leight significa comprimento do array
+//  se i é menor que o comprimento do array ou seja 4 [0,1,2,3,4] 
