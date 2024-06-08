@@ -15,4 +15,4 @@ let ola = function () {
 
 ola = () => 'olá' //função sem parametro
 ola = _ => 'olá' // possui parametro 
-console.log(ola())
+console.log(ola()); 

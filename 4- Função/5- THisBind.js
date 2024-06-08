@@ -11,9 +11,18 @@ const pessoa = {
 // saudacao do objeto que ele está dentro do escopo
 
 pessoa.falar()
-// se caso a função this. for retirada do console 
-// irá gerar um erro na run caracterizada como:
-//  saudacao is not defined
+
+/*
+    irá gerar um erro na run caracterizada como:
+    se caso a função this. for retirada do console 
+    saudacao is not defined
+*/
 
 const falar = pessoa.falar
-falar()
+falar() // conflito entre paradigmas: funcional e OO
+
+const falarDePessoa = pessoa.falar.bind(pessoa)
+falarDePessoa()
+
+// resultado de pessoa.falar.bind(pessoa) é amarrada a constante
+// falarDePessoa

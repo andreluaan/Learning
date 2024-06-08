@@ -6,6 +6,9 @@ function soma1(a, b, c) {
 
     return a + b + c
 }
+// caso recebe o parametro a entao a = a se nao receber a = 1
+// ou seja a = parametro a ou a = 1
+
 
 console.log(soma1(), soma1(3), soma1(1, 2, 3), soma1 (0, 0, 0))
 // o 0 retorna falso entao o valor padrao 1 é atribuido as variaveis

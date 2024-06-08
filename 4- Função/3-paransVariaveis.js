@@ -10,5 +10,4 @@ console.log(soma())
 console.log(soma(1))
 console.log(soma(1.1, 2.2, 3.3))
 console.log(soma(1.1, 2.2, 3.3, 4.4, " teste"))
-
 console.log(soma('a', 'b', 'c'))
