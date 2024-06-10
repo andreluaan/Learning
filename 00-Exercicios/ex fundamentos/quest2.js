@@ -21,7 +21,7 @@ function classification(side1, side2, side3) {
     if (side1 === side2 && side2 === side3) {
         return console.log('Equilátero')
     } else if(side1 !== side2 && side2 !== side3){
-        return console.log('Escoleno')
+        return console.log('Escaleno')
     } else if(side1 === side2 ||side1 === side3
     || side2 === side3  ){
         return console.log('isóceles')

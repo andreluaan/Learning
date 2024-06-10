@@ -17,7 +17,7 @@ console.log()
 
 
 
-
+// mesma funcionalidade
 function withMath(base, exponent) {
     return Math.pow(base, exponent)
 }
