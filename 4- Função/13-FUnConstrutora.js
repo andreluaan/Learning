@@ -2,7 +2,7 @@ function Carro(velocidadeMax = 200, delta = 5) { // aceleração de 5 em 5
     // atributo privado
     let velocidadeAtual = 0
 
-    // metodo pulblico
+    // metodo publico
     this.acelerar = function () {
         if(velocidadeAtual + delta <= velocidadeMax ) {
             velocidadeAtual += delta // VelATUaL = velAtual + delta
