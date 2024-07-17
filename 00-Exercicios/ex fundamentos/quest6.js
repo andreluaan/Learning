@@ -9,12 +9,14 @@ retornará o valor da aplicação sob o regime de juros compostos.
 
 function juroSimples(capInicial, taxJuros, tempoAplicacao) {
     taxJuros = taxJuros/100
-    return capInicial * taxJuros * tempoAplicacao
+    
+    return  capInicial * taxJuros * tempoAplicacao
 }
 
 
 
 function jurosComposto(capInicial, taxJuros, tempoAplicacao) {
+    taxJuros = taxJuros/100
     return montante = capInicial * Math.pow((1 + taxJuros), tempoAplicacao)
 }
 
