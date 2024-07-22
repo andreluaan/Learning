@@ -38,3 +38,4 @@ console.log(pessoa)
 const pessoaConstante = Object.freeze({nome: 'luan'})
 pessoaConstante.nome ='Maria'
 console.log('\n', pessoaConstante)
+// criado sem modificação 

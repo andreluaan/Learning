@@ -47,4 +47,4 @@ carro['proprietario']['endereco']['logradouro'] = 'Av gigante'
 delete carro.condutores
 delete carro.proprietario.endereco
 
-console.log(carro)
+
